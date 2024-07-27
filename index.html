@@ -16,17 +16,41 @@
   <link rel="shortcut icon" href="./assets/img/favicon.ico" />
   <!-- Webpage Title -->
   <title>Arjun Prajapat</title>
-
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <!-- Import CSS: Main Stylesheet -->
   <link rel="stylesheet" href="./assets/css/main.css" />
 </head>
-
+<style>
+  .tech i{
+    font-size: 40px;
+  }
+  table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+      font-size: 16px;
+      text-align: left;
+  }
+  th, td {
+      padding: 12px;
+      border-bottom: 1px solid #ddd;
+  }
+  th {
+      background-color: #f4f4f4;
+  }
+  tr:hover {
+      background-color: #f1f1f1;
+  }
+  .site-title, .site-description {
+    font-family: 'Roboto', sans-serif;
+  }
+</style>
 <body>
   <div id="particles-js">
     <div class="header">
       <h1>
         <span class="site-title">Arjun Prajapat</span>
-        <span class="site-description">Web Developer • Ui Designer</span>
+        <span class="site-description">Full Stack Developer</span>
       </h1>
       <div class="header-icons">
         <a aria-label="My LinkedIn Profile" target="_blank" href="https://www.linkedin.com/in/arjun-prajapat-117438250">
@@ -36,13 +60,13 @@
           <i class="icon fa fa-github-alt" aria-hidden="true"></i>
         </a>
         <a aria-label="My Résumé" target="_blank"
-          href="https://drive.google.com/file/d/13sf1ruiVC7eo-1fevwiAnX_ZHzG76Et8/view?usp=drivesdk">
+          href="https://drive.google.com/file/d/1y-qDYe0BuqK9fcRvYoIyH71Vb0grhISv/view?usp=drivesdk">
           <i class="icon fa fa fa-file-pdf-o" aria-hidden="true"></i>
         </a>
         <a aria-label="My Résumé" target="_blank" href="https://www.youtube.com/@Arjun_prajapat/videos">
           <i class="icon fa fa fa-youtube" aria-hidden="true"></i>
         </a>
-        <a aria-label="Send Email" href="mailto:prajapatarjun732@gmail.com" target="_blank"><i
+        <a aria-label="Send Email" href="mailto:arjunprajapat.dev@gmail.com" target="_blank"><i
             class="icon fa fa-envelope"></i></a>
       </div>
       <div class="header-links">
@@ -78,11 +102,12 @@
         <h2>Front-End</h2>
         <i class="devicon-html5-plain-wordmark colored"></i>
         <i class="devicon-css3-plain-wordmark colored"></i>
-        <!-- <img height="90" width="90"
-          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg"
-          style="filter: invert(33%) sepia(29%) saturate(3844%) hue-rotate(184deg) brightness(90%) contrast(84%)" /> -->
         <i class="devicon-bootstrap-plain-wordmark colored"></i>
         <i class="devicon-javascript-plain colored"></i>
+        <i class="devicon-jquery-plain colored"></i>
+        <img height="90" width="90"
+        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg"
+          style="filter: invert(33%) sepia(29%) saturate(3844%) hue-rotate(184deg) brightness(90%) contrast(84%)" />
 
         <p>My preferred technologies for front-end web development and component design.</p>
       </div>
@@ -90,8 +115,13 @@
       <!-- Technology Stack #3: Back-End -->
       <div class="tech">
         <h2>Back-End</h2>
+        <i class="devicon-react-plain colored"></i>
+        <i class="devicon-django-plain colored"></i>
         <i class="devicon-php-plain colored"></i>
+        <i class="devicon-python-plain colored"></i>
+        <i class="devicon-nodejs-plain colored"></i>
         <i class="devicon-mysql-plain-wordmark colored"></i>
+        <i class="devicon-mongodb-plain-wordmark colored"></i>
         <p>My preferred technologies for back-end web programming and database architecture.</p>
       </div>
 
@@ -99,10 +129,12 @@
       <div class="tech">
         <h2>Tools</h2>
         <!-- <i class="devicon-visualstudio-plain colored"></i> -->
+        <i class="devicon-git-plain-wordmark colored"></i>
         <i class="devicon-github-plain-wordmark colored"></i>
         <i class="devicon-illustrator-plain"></i>
-        <img width="68px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" />
+        <img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" />
         <i class="devicon-photoshop-plain"></i>
+        <i class="devicon-amazonwebservices-plain"></i>
         <p>My favorite tools for version control, code editing, container orchestration and Designing.</p>
       </div>
     </div>
@@ -112,6 +144,87 @@
   <section id="projects">
     <div class="user-details">
       <h1>Featured Projects</h1>
+    </div>
+    <table>
+      <thead>
+          <tr>
+              <th>Website</th>
+              <th>Description</th>
+              <th>Technology/Platform</th>
+              <th>Showcase</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td><a href="https://pricespy.kinmah.co.uk/" target="_blank">Pricespy</a></td>
+              <td>Price comparison and scraping data</td>
+              <td>Django, Python</td>
+              <td>Price comparison site with data scraping features</td>
+          </tr>
+          <tr>
+              <td><a href="https://orangeautotransport.com/" target="_blank">Orange Auto Transport</a></td>
+              <td>Auto transport CRM, integrated with iMove</td>
+              <td>Laravel PHP</td>
+              <td>CRM for auto transport services with iMove integration</td>
+          </tr>
+          <tr>
+              <td><a href="https://imove360.com/" target="_blank">iMove</a></td>
+              <td>Auto transport CRM</td>
+              <td>Laravel PHP</td>
+              <td>CRM for managing auto transport services</td>
+          </tr>
+          <tr>
+              <td><a href="https://parcscan.com/" target="_blank">Parcscan</a></td>
+              <td>Parking management system</td>
+              <td>Laravel PHP</td>
+              <td>System for parking management and scanning</td>
+          </tr>
+          <tr>
+              <td><a href="https://myrentalspot.com/" target="_blank">My Rental Spot</a></td>
+              <td>Landlord and resident management</td>
+              <td>Laravel PHP</td>
+              <td>Platform for landlords and tenants management</td>
+          </tr>
+          <tr>
+              <td><a href="https://www.maxtron-show-lighting.com/home" target="_blank">Maxtron Show Lighting</a></td>
+              <td>Lighting base products</td>
+              <td>React, Node.js</td>
+              <td>E-commerce site for lighting products</td>
+          </tr>
+      </tbody>
+  </table>
+  <br>
+  <div class="user-details">
+    <h1>Git Hub</h1>
+  </div>
+    <div class="user-projects" style="margin: 20px 0px;">
+      <div class="images-left">
+        <picture>
+          <source type="image/webp" srcset="./assets/img/jpg/react-auth.png" alt="Perpetual Crusades" />
+          <img style="border: 1px solid black;" alt="Perpetual Crusades"
+            src="./assets/img/jpg/Capture1.PNG" />
+        </picture>
+      </div>
+      <div class="contents-right" style="text-align: center">
+        <h3>Login Register System</h3>
+        <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/react.svg"
+          style="filter: invert(73%) sepia(74%) saturate(1552%) hue-rotate(169deg) brightness(109%) contrast(97%)" />
+        &nbsp;
+        <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/bootstrap.svg"
+          style="filter: invert(33%) sepia(29%) saturate(3844%) hue-rotate(184deg) brightness(90%) contrast(84%)" />
+        &nbsp;
+        <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/mongodb.svg"
+          style="filter: invert(33%) sepia(29%) saturate(3844%) hue-rotate(184deg) brightness(90%) contrast(84%)" />
+        &nbsp;
+        <i class="devicon-nodejs-plain colored" style="font-size: 35px;"></i>
+        &nbsp;
+        <img height="32" width="32" src="https://unpkg.com/simple-icons@3.4.0/icons/github.svg" />
+        <p style="text-align: justify">
+          This web app provides a secure user authentication system with registration and login functionality, using JWT for secure sessions. It features a React frontend and a Node.js backend with Express,
+           while MongoDB handles data storage. Hosted on GitHub Pages, it ensures a smooth and efficient authentication experience
+        </p>
+        <a class="project-link" target="_blank" href="https://github.com/Arjunprajapat732/Authentication-React">Check it out!</a>
+      </div>
     </div>
 
     <!-- User Project #1: Personal Résumé Website -->
@@ -224,8 +337,9 @@
       </div>
     </div>
   </section>
+  
   <footer class="footer">
-    <p>&copy; Arjun Prajapat, 2023</p>
+    <p>&copy; Arjun Prajapat, 2024</p>
   </footer>
 
   <!-- Import JS: Particles Theme -->
